@@ -1,0 +1,214 @@
+/*For background*/
+body
+{
+    background-repeat: no-repeat;
+    background-image:url(coffeeshop.jpg);
+    top: 0px;
+    height: 1500px;
+    margin-top: 0px;
+
+   
+}
+
+
+/*Heading*/
+h1
+{
+    
+    font-family:'Courier New', Courier, monospace;
+    font-size: 80px;
+    position:absolute;
+    left: 700px;
+    top: 30px;
+    color:	black;
+    background-color: #FFEBCD;
+    text-decoration: italic;
+    border-radius: 15px 50px;
+    font-weight: bold;
+
+}
+
+
+/*for navigation*/
+div.navi a
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:orange;
+    position: relative;
+    left: 250px;
+    text-decoration: none;
+    opacity: 100%;
+    margin-left: 100px;
+    font-weight: bold;
+    
+    
+    
+
+}
+
+/*Nav-box*/
+div.navi
+{
+    opacity: 50%;
+    background-color: black;
+    border-radius: 50px 50px 0 0;
+}
+
+
+/*Menu*/
+div.navigate
+{
+    background-color: lightgray;
+    box-shadow: 5px 10px 20px 15px #FFDEAD;
+    width: 1300px;
+    height: 700px;
+    position: static;
+    margin-left: 650px;
+    margin-top: 200px;
+    border-radius: 50px;
+    
+    
+}
+
+
+/*coffee image*/
+img
+{
+    
+    margin-left: 80px;
+    padding: 30px;
+    width: 260px;
+    height: 260px;
+}
+
+
+/*image-menu*/
+img:hover
+{
+    box-shadow:  0 0 5px 0 orange;
+    
+    
+}
+
+
+/*About-Kape de Moderno-box*/
+div.about
+{
+    opacity: 70%;
+    background-color: black;
+    height: 230px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 15px;
+}
+
+
+/*About-Kape de Moderno-Paragraph*/
+div.about1 p
+{
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    font-family:monospace;
+    font-style: italic;
+    
+}
+/*About Us*/
+div.about h3
+{
+    font-size: 35px;
+    color: rgb(138, 93, 41);
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: bold;
+    text-align: center;
+    
+}
+
+
+
+/*Contact Us box*/
+footer
+{
+    opacity: 70%;
+    background-color: beige;
+    height: 350px;
+    width: 600px;
+    margin-left: 41%;
+    margin-right: 100px;
+    margin-top: 330px;
+    border-radius: 15px; 
+}
+
+
+/*Contact Us text*/
+footer p
+{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif
+}
+
+
+/*Fullname, Email, P.number- boxes*/
+input[type=text]
+{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin-left: 50px;
+
+}
+
+
+/*Submit Box*/
+input[type=submit]
+{
+    background-color:navajowhite;
+    border: none;
+    color:black;
+    padding: 12px 24px;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+input[type=submit]:hover{
+    box-shadow: 0 0 10px 2px black;
+
+}
+
+
+/*Submit text*/
+input[value=Submit]
+{
+    font-weight: bold;
+}
+
+
+/*Fullname, Email, P.Number input*/
+input[name]
+{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/*Fullname, Email, P.Number text*/
+form
+{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
